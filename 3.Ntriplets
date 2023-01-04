@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ff first
+#define ss second
+#define ll long long
+#define for(i,n) for(ll i=0;i<n;i++)
+#define foi(i,k,n) for(ll i=k;i<n;i++)
+#define pb(x) push_back(x);
+#define yes cout<<"YES"<<endl;
+#define no cout<<"NO"<<endl;
+#define get(s) getline(cin,s);
+const int N=0;
+int main()
+{
+
+ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
+
+    int t;
+    cin>>t;
+    while(t--){
+        int m,n;
+        cin>>m>>n;
+            cout<<__gcd(m,n)<<endl;
+    }
+   return 0;
+}
+
